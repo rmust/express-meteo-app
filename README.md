@@ -1,5 +1,12 @@
-#### How to start?
+#### How to start
+
 open this project in terminal and run:
+
+```bash
+npm i
+```
+
+and then:
 
 ```bash
 node app.js
