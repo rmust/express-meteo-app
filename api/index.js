@@ -6,6 +6,7 @@ const PORT = 3000;
 const METEO_BASE_URL = "https://api.meteo.lt/v1";
 
 function setHeaders(res) {
+  res.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
 	res.setHeader('Content-Type', 'application/json'); 
   res.setHeader('Access-Control-Allow-Credentials', true)
   res.setHeader('Access-Control-Allow-Origin', 'meteo-app.vercel.app')

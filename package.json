@@ -4,11 +4,17 @@
   "description": "A simple express server to comunicate with api.meteo.lt",
   "main": "app.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "rmust",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
   }
 }
