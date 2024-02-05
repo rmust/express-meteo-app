@@ -18,7 +18,7 @@ node app.js
 
 `http://localhost:3000/places/vilnius/forecasts/long-term` -> this gives forecasts
 
-#### Usage With React
+#### Usage With fetch
 
 ```javascript
 fetch("http://localhost:3000/places").then((res) => res.json()).then((data) => setData(data))
